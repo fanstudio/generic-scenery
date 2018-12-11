@@ -1,24 +1,22 @@
 //
-//  RootViewController.m
+//  GuidViewController.m
 //  tuguan
 //
-//  Created by 张帆 on 2018/12/10.
+//  Created by 张帆 on 2018/12/11.
 //  Copyright © 2018 fanstudio. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "GuidViewController.h"
 
-@interface RootViewController ()
+@interface GuidViewController ()
 
 @end
 
-@implementation RootViewController
+@implementation GuidViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = UIColor.redColor;
-    NSLog(@"enter\n");
 }
 
 /*

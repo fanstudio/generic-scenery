@@ -1,8 +1,8 @@
 //
-//  RootViewController.h
+//  HomeViewController.h
 //  tuguan
 //
-//  Created by 张帆 on 2018/12/10.
+//  Created by 张帆 on 2018/12/11.
 //  Copyright © 2018 fanstudio. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RootViewController : UIViewController
+@interface HomeViewController : UIViewController
 
 @end
 

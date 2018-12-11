@@ -9,17 +9,31 @@
 /* Begin PBXBuildFile section */
 		7DA9472021BEA0530034067A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471A21BEA0530034067A /* main.m */; };
 		7DA9472121BEA0530034067A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471B21BEA0530034067A /* AppDelegate.m */; };
-		7DA9472421BEA4300034067A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9472321BEA4300034067A /* RootViewController.m */; };
 		7DC855A721BF5C58005C83B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC855A621BF5C58005C83B1 /* Assets.xcassets */; };
+		7DF860E721BFE63C00F1F47C /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860E621BFE63C00F1F47C /* RootTabBarController.m */; };
+		7DF860EE21BFF40000F1F47C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860ED21BFF40000F1F47C /* HomeViewController.m */; };
+		7DF860F121BFF42100F1F47C /* PoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860F021BFF42100F1F47C /* PoiViewController.m */; };
+		7DF860F421BFF43100F1F47C /* GuidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860F321BFF43100F1F47C /* GuidViewController.m */; };
+		7DF860F821BFF6F600F1F47C /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860F721BFF6F600F1F47C /* RootNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7DA9471821BEA0530034067A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DA9471A21BEA0530034067A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DA9471B21BEA0530034067A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DA9472221BEA4300034067A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		7DA9472321BEA4300034067A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		7DC855A621BF5C58005C83B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DF860E521BFE63C00F1F47C /* RootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		7DF860E621BFE63C00F1F47C /* RootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		7DF860E921BFE87400F1F47C /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		7DF860EA21BFEAA000F1F47C /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		7DF860EC21BFF40000F1F47C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7DF860ED21BFF40000F1F47C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7DF860EF21BFF42100F1F47C /* PoiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoiViewController.h; sourceTree = "<group>"; };
+		7DF860F021BFF42100F1F47C /* PoiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoiViewController.m; sourceTree = "<group>"; };
+		7DF860F221BFF43100F1F47C /* GuidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidViewController.h; sourceTree = "<group>"; };
+		7DF860F321BFF43100F1F47C /* GuidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidViewController.m; sourceTree = "<group>"; };
+		7DF860F621BFF6F600F1F47C /* RootNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		7DF860F721BFF6F600F1F47C /* RootNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
 		7DF905A621B96CD50070BA44 /* tuguan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuguan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF905B721B96CD60070BA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +61,8 @@
 		7DA9471521BEA0530034067A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7DF860F521BFF65200F1F47C /* Widgets */,
+				7DF860E821BFE84A00F1F47C /* Common */,
 				7DA9471621BEA0530034067A /* Models */,
 				7DA9471721BEA0530034067A /* Main */,
 				7DA9471D21BEA0530034067A /* Controllers */,
@@ -68,6 +84,10 @@
 				7DA9471821BEA0530034067A /* AppDelegate.h */,
 				7DA9471A21BEA0530034067A /* main.m */,
 				7DA9471B21BEA0530034067A /* AppDelegate.m */,
+				7DF860E521BFE63C00F1F47C /* RootTabBarController.h */,
+				7DF860E621BFE63C00F1F47C /* RootTabBarController.m */,
+				7DF860F621BFF6F600F1F47C /* RootNavigationController.h */,
+				7DF860F721BFF6F600F1F47C /* RootNavigationController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -75,8 +95,12 @@
 		7DA9471D21BEA0530034067A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7DA9472221BEA4300034067A /* RootViewController.h */,
-				7DA9472321BEA4300034067A /* RootViewController.m */,
+				7DF860EC21BFF40000F1F47C /* HomeViewController.h */,
+				7DF860ED21BFF40000F1F47C /* HomeViewController.m */,
+				7DF860EF21BFF42100F1F47C /* PoiViewController.h */,
+				7DF860F021BFF42100F1F47C /* PoiViewController.m */,
+				7DF860F221BFF43100F1F47C /* GuidViewController.h */,
+				7DF860F321BFF43100F1F47C /* GuidViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -86,6 +110,22 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7DF860E821BFE84A00F1F47C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7DF860E921BFE87400F1F47C /* Common.h */,
+				7DF860EA21BFEAA000F1F47C /* Color.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7DF860F521BFF65200F1F47C /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 		7DF9059D21B96CD50070BA44 = {
@@ -182,8 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA9472021BEA0530034067A /* main.m in Sources */,
+				7DF860F121BFF42100F1F47C /* PoiViewController.m in Sources */,
+				7DF860F821BFF6F600F1F47C /* RootNavigationController.m in Sources */,
+				7DF860F421BFF43100F1F47C /* GuidViewController.m in Sources */,
+				7DF860E721BFE63C00F1F47C /* RootTabBarController.m in Sources */,
 				7DA9472121BEA0530034067A /* AppDelegate.m in Sources */,
-				7DA9472421BEA4300034067A /* RootViewController.m in Sources */,
+				7DF860EE21BFF40000F1F47C /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +290,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -298,6 +343,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
