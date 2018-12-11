@@ -10,7 +10,7 @@
 		7DA9472021BEA0530034067A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471A21BEA0530034067A /* main.m */; };
 		7DA9472121BEA0530034067A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471B21BEA0530034067A /* AppDelegate.m */; };
 		7DA9472421BEA4300034067A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9472321BEA4300034067A /* RootViewController.m */; };
-		7DF905B321B96CD60070BA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF905B221B96CD60070BA44 /* Assets.xcassets */; };
+		7DC855A721BF5C58005C83B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC855A621BF5C58005C83B1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +19,8 @@
 		7DA9471B21BEA0530034067A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DA9472221BEA4300034067A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7DA9472321BEA4300034067A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7DC855A621BF5C58005C83B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF905A621B96CD50070BA44 /* tuguan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuguan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DF905B221B96CD60070BA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF905B721B96CD60070BA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,8 +38,8 @@
 		7DA9471421BE9FC10034067A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7DF905B221B96CD60070BA44 /* Assets.xcassets */,
 				7DF905B721B96CD60070BA44 /* Info.plist */,
+				7DC855A621BF5C58005C83B1 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF905B321B96CD60070BA44 /* Assets.xcassets in Resources */,
+				7DC855A721BF5C58005C83B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58C92YS22U;
 				INFOPLIST_FILE = "$(SRCROOT)/tuguan/Resources/Info.plist";
@@ -323,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58C92YS22U;
 				INFOPLIST_FILE = "$(SRCROOT)/tuguan/Resources/Info.plist";
