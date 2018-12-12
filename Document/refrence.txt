@@ -1,0 +1,10 @@
+参考链接
+https://wenku.baidu.com/view/835eea95be1e650e53ea9937.html
+
+
+
+基于IOS的智能家居客户端系统的设计与实现
+
+http://www.doc88.com/p-2438172037502.html
+
+http://www.doc88.com/p-1542291805207.html
