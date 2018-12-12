@@ -7,6 +7,8 @@
 //
 
 #import "RootNavigationController.h"
+#import "Common.h"
+#import "UIBarButtonItem+Extension.h"
 
 @interface RootNavigationController ()
 
@@ -16,17 +18,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.navigationBarColor = BASE_COLOR;
+    
+    [self setupDefsTitleStyle];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - 设置标题风格
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setupDefsTitleStyle {
+    // 设置标题的字体和颜色
+    NSMutableDictionary *titleAttrs = [NSMutableDictionary dictionary];
+    titleAttrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    titleAttrs[NSFontAttributeName] = FONT_TITLE1;
+    self.navigationBar.titleTextAttributes = titleAttrs;
 }
-*/
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
+#pragma mark - 重载，统一设置导航栏左侧返回按钮，以及push隐藏tabBar
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    if (self.viewControllers.count > 0) {
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonWithTarget:self Image:@"my_left" highLightImage:nil action:@selector(back)];
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+    
+    [super pushViewController:viewController animated:animated];
+}
+
+- (void)back {
+    [self popViewControllerAnimated:YES];
+}
 
 @end

@@ -15,7 +15,7 @@
 #define Color(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0] // RGB颜色
 #define ARGB(a, r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a / 255.0] // RGB颜色
 #define RandomColor Color(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256)) // 随机色
-#define BASE_COLOR Color(0, 150, 136)           // 基准色
+#define BASE_COLOR Color(76, 76, 76)           // 基准色
 #define LIGHT_GREEN_COLOR Color(134, 212, 204)   // 浅绿色
 #define VIEW_BASE_COLOR Color(246, 246, 246)     // view默认底色
 #define VIEW_BLANCK_COLOR Color(239, 239, 239)   // view空白颜色

@@ -12,7 +12,7 @@
 #ifdef __OBJC__ /* objc环境 */
 
 #import "Color.h"
-
+#import "Size.h"
 /*****************日志宏**********************/
 #ifdef DEBUG
 

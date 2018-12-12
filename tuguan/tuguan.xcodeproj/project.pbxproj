@@ -10,6 +10,9 @@
 		7DA9472021BEA0530034067A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471A21BEA0530034067A /* main.m */; };
 		7DA9472121BEA0530034067A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471B21BEA0530034067A /* AppDelegate.m */; };
 		7DC855A721BF5C58005C83B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC855A621BF5C58005C83B1 /* Assets.xcassets */; };
+		7DECC5C321C14D9800013D0A /* TransparentNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DECC5C221C14D9800013D0A /* TransparentNavController.m */; };
+		7DECC5C721C14F5100013D0A /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DECC5C621C14F5100013D0A /* UIImage+Extension.m */; };
+		7DECC5CD21C1525400013D0A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DECC5CC21C1525400013D0A /* UIBarButtonItem+Extension.m */; };
 		7DF860E721BFE63C00F1F47C /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860E621BFE63C00F1F47C /* RootTabBarController.m */; };
 		7DF860EE21BFF40000F1F47C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860ED21BFF40000F1F47C /* HomeViewController.m */; };
 		7DF860F121BFF42100F1F47C /* PoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF860F021BFF42100F1F47C /* PoiViewController.m */; };
@@ -22,6 +25,13 @@
 		7DA9471A21BEA0530034067A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DA9471B21BEA0530034067A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DC855A621BF5C58005C83B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DECC5C121C14D9800013D0A /* TransparentNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentNavController.h; sourceTree = "<group>"; };
+		7DECC5C221C14D9800013D0A /* TransparentNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentNavController.m; sourceTree = "<group>"; };
+		7DECC5C521C14F5100013D0A /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		7DECC5C621C14F5100013D0A /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		7DECC5CA21C151A400013D0A /* Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Size.h; sourceTree = "<group>"; };
+		7DECC5CB21C1525400013D0A /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		7DECC5CC21C1525400013D0A /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		7DF860E521BFE63C00F1F47C /* RootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		7DF860E621BFE63C00F1F47C /* RootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 		7DF860E921BFE87400F1F47C /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -112,11 +122,41 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7DECC5C021C14D4800013D0A /* TransparentNavController */ = {
+			isa = PBXGroup;
+			children = (
+				7DECC5C121C14D9800013D0A /* TransparentNavController.h */,
+				7DECC5C221C14D9800013D0A /* TransparentNavController.m */,
+			);
+			path = TransparentNavController;
+			sourceTree = "<group>";
+		};
+		7DECC5C421C14E8400013D0A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7DECC5C521C14F5100013D0A /* UIImage+Extension.h */,
+				7DECC5C621C14F5100013D0A /* UIImage+Extension.m */,
+				7DECC5CB21C1525400013D0A /* UIBarButtonItem+Extension.h */,
+				7DECC5CC21C1525400013D0A /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7DECC5C921C1518700013D0A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7DF860EA21BFEAA000F1F47C /* Color.h */,
+				7DF860E921BFE87400F1F47C /* Common.h */,
+				7DECC5CA21C151A400013D0A /* Size.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		7DF860E821BFE84A00F1F47C /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				7DF860E921BFE87400F1F47C /* Common.h */,
-				7DF860EA21BFEAA000F1F47C /* Color.h */,
+				7DECC5C921C1518700013D0A /* Headers */,
+				7DECC5C421C14E8400013D0A /* Category */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -124,6 +164,7 @@
 		7DF860F521BFF65200F1F47C /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				7DECC5C021C14D4800013D0A /* TransparentNavController */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -221,11 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DECC5C321C14D9800013D0A /* TransparentNavController.m in Sources */,
 				7DA9472021BEA0530034067A /* main.m in Sources */,
 				7DF860F121BFF42100F1F47C /* PoiViewController.m in Sources */,
 				7DF860F821BFF6F600F1F47C /* RootNavigationController.m in Sources */,
+				7DECC5CD21C1525400013D0A /* UIBarButtonItem+Extension.m in Sources */,
 				7DF860F421BFF43100F1F47C /* GuidViewController.m in Sources */,
 				7DF860E721BFE63C00F1F47C /* RootTabBarController.m in Sources */,
+				7DECC5C721C14F5100013D0A /* UIImage+Extension.m in Sources */,
 				7DA9472121BEA0530034067A /* AppDelegate.m in Sources */,
 				7DF860EE21BFF40000F1F47C /* HomeViewController.m in Sources */,
 			);

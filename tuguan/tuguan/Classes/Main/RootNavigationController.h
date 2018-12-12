@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TransparentNavController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RootNavigationController : UINavigationController
+@interface RootNavigationController : TransparentNavController
 
 @end
 
