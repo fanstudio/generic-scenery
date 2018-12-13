@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationBarColor = BASE_COLOR;
+    self.navigationBarColor = BASE_COLOR_GRAY;
     
     [self setupDefsTitleStyle];
 }
@@ -35,7 +35,7 @@
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+    return UIStatusBarStyleDefault;
 }
 
 #pragma mark - 重载，统一设置导航栏左侧返回按钮，以及push隐藏tabBar

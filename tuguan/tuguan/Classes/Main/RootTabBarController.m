@@ -27,7 +27,7 @@
     
     // 2.初始化各项子控制器
     HomeViewController *home = [HomeViewController new];
-    [self addchildVC:home title:@"首页" image:@"home-gray" selectedImage:@"home" needNav:YES];
+    [self addchildVC:home title:@"首页" image:@"home-gray" selectedImage:@"home" needNav:NO];
     
     PoiViewController *poi = [PoiViewController new];
     [self addchildVC:poi title:@"景点" image:@"poi-gray" selectedImage:@"poi" needNav:YES];
@@ -49,7 +49,7 @@
     NSMutableDictionary *normalAttribute = [NSMutableDictionary dictionary];
     normalAttribute[NSForegroundColorAttributeName] = BASE_COLOR_GRAY;
     NSMutableDictionary *selectedAtribute = [NSMutableDictionary dictionary];
-    selectedAtribute[NSForegroundColorAttributeName] = BASE_COLOR_BLACK;
+    selectedAtribute[NSForegroundColorAttributeName] = [UIColor blackColor];
     
     [vc.tabBarItem setTitleTextAttributes:normalAttribute forState:UIControlStateNormal];
     [vc.tabBarItem setTitleTextAttributes:selectedAtribute forState:UIControlStateSelected];

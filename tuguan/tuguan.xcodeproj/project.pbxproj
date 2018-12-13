@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D729E0121C28DE200B22EAB /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D729E0021C28DE200B22EAB /* BannerView.m */; };
+		7D729E0421C28EBD00B22EAB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D729E0321C28EBD00B22EAB /* UIView+Extension.m */; };
+		7D729E0721C290B600B22EAB /* BannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D729E0621C290B600B22EAB /* BannerViewCell.m */; };
+		7D729E0B21C2930100B22EAB /* TopBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D729E0A21C2930100B22EAB /* TopBannerView.m */; };
+		7D729E1121C2962E00B22EAB /* TopBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D729E1021C2962E00B22EAB /* TopBannerCell.m */; };
+		7D729E1521C298CA00B22EAB /* HomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D729E1421C298CA00B22EAB /* HomeItem.m */; };
 		7DA9472021BEA0530034067A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471A21BEA0530034067A /* main.m */; };
 		7DA9472121BEA0530034067A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9471B21BEA0530034067A /* AppDelegate.m */; };
 		7DC855A721BF5C58005C83B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC855A621BF5C58005C83B1 /* Assets.xcassets */; };
@@ -21,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D729DFF21C28DE200B22EAB /* BannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		7D729E0021C28DE200B22EAB /* BannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		7D729E0221C28EBD00B22EAB /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7D729E0321C28EBD00B22EAB /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7D729E0521C290B600B22EAB /* BannerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewCell.h; sourceTree = "<group>"; };
+		7D729E0621C290B600B22EAB /* BannerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewCell.m; sourceTree = "<group>"; };
+		7D729E0921C2930100B22EAB /* TopBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopBannerView.h; sourceTree = "<group>"; };
+		7D729E0A21C2930100B22EAB /* TopBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopBannerView.m; sourceTree = "<group>"; };
+		7D729E0F21C2962E00B22EAB /* TopBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopBannerCell.h; sourceTree = "<group>"; };
+		7D729E1021C2962E00B22EAB /* TopBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopBannerCell.m; sourceTree = "<group>"; };
+		7D729E1321C298CA00B22EAB /* HomeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeItem.h; sourceTree = "<group>"; };
+		7D729E1421C298CA00B22EAB /* HomeItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeItem.m; sourceTree = "<group>"; };
 		7DA9471821BEA0530034067A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DA9471A21BEA0530034067A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DA9471B21BEA0530034067A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +77,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D729DFE21C28DA900B22EAB /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				7D729DFF21C28DE200B22EAB /* BannerView.h */,
+				7D729E0021C28DE200B22EAB /* BannerView.m */,
+				7D729E0521C290B600B22EAB /* BannerViewCell.h */,
+				7D729E0621C290B600B22EAB /* BannerViewCell.m */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		7D729E0821C2924400B22EAB /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7D729E0921C2930100B22EAB /* TopBannerView.h */,
+				7D729E0A21C2930100B22EAB /* TopBannerView.m */,
+				7D729E0F21C2962E00B22EAB /* TopBannerCell.h */,
+				7D729E1021C2962E00B22EAB /* TopBannerCell.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7D729E1221C2979200B22EAB /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7D729E1321C298CA00B22EAB /* HomeItem.h */,
+				7D729E1421C298CA00B22EAB /* HomeItem.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7D729E1621C2A75400B22EAB /* NetTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetTool;
+			sourceTree = "<group>";
+		};
 		7DA9471421BE9FC10034067A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +140,7 @@
 		7DA9471621BEA0530034067A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7D729E1221C2979200B22EAB /* home */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,6 +175,7 @@
 		7DA9471E21BEA0530034067A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7D729E0821C2924400B22EAB /* home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +196,8 @@
 				7DECC5C621C14F5100013D0A /* UIImage+Extension.m */,
 				7DECC5CB21C1525400013D0A /* UIBarButtonItem+Extension.h */,
 				7DECC5CC21C1525400013D0A /* UIBarButtonItem+Extension.m */,
+				7D729E0221C28EBD00B22EAB /* UIView+Extension.h */,
+				7D729E0321C28EBD00B22EAB /* UIView+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -155,6 +215,7 @@
 		7DF860E821BFE84A00F1F47C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				7D729E1621C2A75400B22EAB /* NetTool */,
 				7DECC5C921C1518700013D0A /* Headers */,
 				7DECC5C421C14E8400013D0A /* Category */,
 			);
@@ -164,6 +225,7 @@
 		7DF860F521BFF65200F1F47C /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				7D729DFE21C28DA900B22EAB /* BannerView */,
 				7DECC5C021C14D4800013D0A /* TransparentNavController */,
 			);
 			path = Widgets;
@@ -265,11 +327,17 @@
 				7DECC5C321C14D9800013D0A /* TransparentNavController.m in Sources */,
 				7DA9472021BEA0530034067A /* main.m in Sources */,
 				7DF860F121BFF42100F1F47C /* PoiViewController.m in Sources */,
+				7D729E0721C290B600B22EAB /* BannerViewCell.m in Sources */,
 				7DF860F821BFF6F600F1F47C /* RootNavigationController.m in Sources */,
+				7D729E0121C28DE200B22EAB /* BannerView.m in Sources */,
 				7DECC5CD21C1525400013D0A /* UIBarButtonItem+Extension.m in Sources */,
+				7D729E0421C28EBD00B22EAB /* UIView+Extension.m in Sources */,
+				7D729E0B21C2930100B22EAB /* TopBannerView.m in Sources */,
 				7DF860F421BFF43100F1F47C /* GuidViewController.m in Sources */,
 				7DF860E721BFE63C00F1F47C /* RootTabBarController.m in Sources */,
+				7D729E1121C2962E00B22EAB /* TopBannerCell.m in Sources */,
 				7DECC5C721C14F5100013D0A /* UIImage+Extension.m in Sources */,
+				7D729E1521C298CA00B22EAB /* HomeItem.m in Sources */,
 				7DA9472121BEA0530034067A /* AppDelegate.m in Sources */,
 				7DF860EE21BFF40000F1F47C /* HomeViewController.m in Sources */,
 			);
